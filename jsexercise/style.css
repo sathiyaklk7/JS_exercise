@@ -1,0 +1,11 @@
+.main{
+    width: 390px;
+    height: 200px;
+    background-color: #f4dada;
+    border: 2px solid ;
+    text-align: center;
+    word-spacing: 20px;
+}
+.log{
+    margin-top: 20px;
+}

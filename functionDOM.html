@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <input id="but1" type="text"><br>
+   <input id="but2" type="text"><br>
+   <button onclick="add()">Add</button>
+   <h1 id="result">Show Result</h1>
+</body>
+<script>
+   var a=document.getElementById('but1')
+   var b=document.getElementById('but2')
+   var c=document.getElementById('result')
+   function add(){
+      var aa=Number(a.value)
+      var bb=Number(b.value)
+      var t=aa+bb
+      c.textContent=t
+   }
+</script>
+</html>
